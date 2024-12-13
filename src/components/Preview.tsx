@@ -14,7 +14,7 @@ export const Preview: Devvit.BlockComponent<{ text?: string }> = ({ text = 'Load
         />
         <spacer size="small" />
         <text maxWidth={`80%`} size="large" weight="bold" alignment="center middle" wrap>
-          {text}
+          {text + " - something else"}
         </text>
       </vstack>
     </zstack>

@@ -26,7 +26,7 @@ Devvit.configure({
 
 Devvit.addMenuItem({
   // Please update as you work on your idea!
-  label: 'Make my experience post',
+  label: 'Trading Pioneers',
   location: 'subreddit',
   forUserType: 'moderator',
   onPress: async (_event, context) => {
@@ -34,7 +34,7 @@ Devvit.addMenuItem({
     const subreddit = await reddit.getCurrentSubreddit();
     const post = await reddit.submitPost({
       // Title of the post. You'll want to update!
-      title: 'My first experience post',
+      title: 'Trading Pioneers',
       subredditName: subreddit.name,
       preview: <Preview />,
     });
